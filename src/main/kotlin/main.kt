@@ -18,7 +18,7 @@ fun main() {
     )
 }
 
-fun commissionAmount(transferAmount: Int, transferAmountInMonth: Int = 0, typePay: String = "V Pay"): Int {
+fun commissionAmount(transferAmount: Int, transferAmountInMonth: Int = 0, typePay: String = "VK Pay"): Int {
 
     return when (typePay) {
         "VK Pay" -> 0
