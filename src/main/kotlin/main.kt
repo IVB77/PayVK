@@ -1,3 +1,4 @@
+//package ru.netology
 fun main() {
     val typePay = "MasterCard"
     val transferAmountInMonth = 500_000
